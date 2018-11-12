@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>setBoundDialog</class>
+ <widget class="QDialog" name="setBoundDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>部件阈值设置</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>40</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>部件名称</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>40</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>冷却水出水温度</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>冷却水出口水压</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>冷却水水流量</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>冷却水回水温度</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>冷却水机组水控制设定温度</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>冷却水压缩机排气温度</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>低温泵1级冷头温度</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>低温泵2级冷头温度</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>低温泵1#胀板温度</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>低温泵2#胀板温度</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>低温泵3#胀板温度</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>低温泵供电状态</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>低温泵1级加热器运行状态</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>低温泵2级加热器运行状态</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>低温泵状态</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>低温泵运行电流</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>分子泵电流</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>分子泵频率</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>分子泵状态</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>热沉平均温度</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>低温系统1#液氮泵电流</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>低温系统1#液氮泵电压</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>低温系统1#液氮泵功率</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>储槽液位</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>120</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>250</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确认</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>250</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>120</y>
+     <width>69</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>上阈值</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>下阈值</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

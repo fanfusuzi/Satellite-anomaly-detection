@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/all.png</file>
+        <file>images/copy.png</file>
+        <file>images/cut.png</file>
+        <file>images/find.png</file>
+        <file>images/gotocell.png</file>
+        <file>images/green.jpg</file>
+        <file>images/icon.png</file>
+        <file>images/new.png</file>
+        <file>images/open.png</file>
+        <file>images/paste.png</file>
+        <file>images/red.jpg</file>
+        <file>images/save.png</file>
+        <file>images/set.png</file>
+        <file>images/timg.jpeg</file>
+    </qresource>
+</RCC>
